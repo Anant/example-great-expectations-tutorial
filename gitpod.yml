@@ -1,0 +1,18 @@
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - name: Dependencies & Python Webserver for Great Expectations
+    init: |
+      pip install great_expectations
+      yes Y | great_expectations init
+      cd great_expectations/uncommitted/data_docs/
+    command: python3 -m http.server 3000
+  - name: Jupyter Notebook Configuration
+    before: jupyter notebook --generate-config
+    command: sed -i "s/# c.NotebookApp.allow_origin = ''/c.NotebookApp.allow_origin = '*'/" /home/gitpod/.jupyter/jupyter_notebook_config.py
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-browser
+  - port: 8888
+    onOpen: open-browser
