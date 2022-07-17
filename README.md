@@ -5,10 +5,11 @@ This repo is a fork of the original [Great Expecations Tutorials Repo](https://g
 ## Click the button below to get started!
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/ge_tutorials)
 
-## Note:
-Once you reach the steps of opening Juypter notebooks during the getting started walkthrough, the token can be found in the terminal.
+## Notes
+1. This gitpod configuration runs `great_expectations init` for you, so you can begin with `Step 2: Connect to data` and create a Datasource
+2. Once you reach the steps of opening Juypter notebooks during the getting started walkthrough, the token can be found in the terminal.
 
-## Planned Series:
+## Planned Series
 We are planning a series around Great Expectations and the repos will linked backed to this repo so you can find them in the future as well!
 
 - Part 2
