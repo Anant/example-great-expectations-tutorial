@@ -1,21 +1,21 @@
 # Great Expectations tutorials
 
-This repository contains the material for a number of Great Expectations tutorials. They all contain instructions in the respective README files.
+This repo is a fork of the original [Great Expecations Tutorials Repo](https://github.com/superconductive/ge_tutorials). We have [Gitpodified](https://gitpod.io/) the tutorial and made it so that it can be run on your browser via Gitpod! The walkthrough for this repo can be found [here](https://docs.greatexpectations.io/docs/tutorials/getting_started/tutorial_overview).
 
-**We invite community contributions for these tutorials!**
+## Click the button below to get started!
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Anant/ge_tutorials)
 
+## Note:
+Once you reach the steps of opening Juypter notebooks during the getting started walkthrough, the token can be found in the terminal.
 
-## getting_started_tutorial_final_v3_api [TBD]
-This example contains the final state of the "Getting started with Great Expectations" tutorial for the Great 
-Expectations API v3 (Batch Kwargs API), which is included in Great Expectations version 0.13 and above. 
-It also acts as a starting point to explore and demo Great Expectations. See the README in the directory for details.
+## Planned Series:
+We are planning a series around Great Expectations and the repos will linked backed to this repo so you can find them in the future as well!
 
-## getting_started_tutorial_final_v2_api
-This example contains the final state of the "Getting started with Great Expectations" tutorial for the Great Expectations 
-API v2 (Batch Kwargs API) which applies to Great Expectations version 0.12.x and below. It also acts as a starting point 
-to explore and demo Great Expectations. See the README in the directory for details.
+- Part 2
+  - Spark Execution Engine with Spaceship Data
 
-## ge_dbt_airflow_tutorial
-This example demonstrates the use of Great Expectations in a data pipeline with dbt and Apache Airflow. 
-See the README in the directory for details. **Note** This tutorial currently requires an update to work with the 
-new-style Checkpoints that were introduced in version 0.13.8.
+- Part 3
+  - Airflow + Spark + Great Expectations with Spaceship Data
+
+- Part 4
+  - Airflow + Spark + Great Expectations +  Cassandra with Spaceship Data
